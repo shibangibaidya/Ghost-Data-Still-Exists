@@ -1,0 +1,3 @@
+# Runtime dependencies. The core pipeline uses the standard library only; the provider SDK is
+# imported lazily, so replaying cached model answers (--offline) does not need it.
+google-genai==2.33.0
